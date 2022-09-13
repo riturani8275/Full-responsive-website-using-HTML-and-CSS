@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1782px)" href="css\phone.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images\logo1.png" alt="">
+        </div>
+        <ul>
+            <li class="link"><a href="#">Home</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Order</a></li>
+            <li class="link"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h1>La Creperie</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsam repellat eaque placeat perferendis
+            dicta, corrupti ullam numquam quam! Vero corporis rem magni reprehenderit voluptate harum labore libero,
+            error repellendus. Aliquid a illum, vero mollitia ipsam at ratione optio necessitatibus.</p>
+    </section>
+
+    <section id="menu-container">
+        <h1 class="h1-menu">Menu</h1>
+        <div id="menu">
+            <div class="box">
+                <!--<div class="dropdown">-->
+                    <div>
+                        <img src="images\desert1.jpg" alt="desert">
+
+                    </div>
+                    <button class="dropbtn">Desert</button>
+                    <div class="dropdown-content">
+                        <a href="#">Crème caramel</a>
+                        <a href="#">Crêpe Suzette.</a>
+                        <a href="#">Croissant:French pastry.</a>
+                        <a href="#">Croquembouche:French dessert.</a>
+                        <a href="#">Custard tart</a>
+                    </div>
+
+                <!--</div>-->
+            </div>
+            <div class="box">
+                <!--<div class="dropdown">-->
+                    <div>
+                        <img src="images\shake.png" alt="drinks">
+
+                    </div>
+                    <button class="dropbtn">Shakes</button>
+                    <div class="dropdown-content">
+                        <a href="#">Mango Shake</a>
+                        <a href="#">Pineapple Shake</a>
+                        <a href="#">Hot chocolate</a>
+                        <a href="#">Banana Shake</a>
+                        <a href="#">Choclate Shake</a>
+                    </div>
+                <!--</div>-->
+            </div>
+            <div class="box">
+                <!--<div class="dropdown">-->
+                    <div>
+                        <img src="images\food.jpg" alt="menu">
+
+                    </div>
+                    <button class="dropbtn">Dishes</button>
+                    <div class="dropdown-content">
+                        <a href="#">Bœuf bourguignon</a>
+                        <a href="#">Coq au vin </a>
+                        <a href="#">Escargots de Bourgogne</a>
+                        <a href="#">Gougère</a>
+                        <a href="#">Jambon persillé</a>
+                    </div>
+                <!--</div>-->
+            </div>
+            <div class="box">
+                <!--<div class="dropdown">-->
+                    <div>
+                        <img src="images\Drink.jpg" alt="menu">
+
+                    </div>
+                    <button class="dropbtn">Drinks</button>
+                    <div class="dropdown-content">
+                        <a href="#">Kir</a>
+                        <a href="#">Pastis</a>
+                        <a href="#">Rhum Agricole</a>
+                        <a href="#">Cognac</a>
+                        <a href="#">Calvados</a>
+                    </div>
+                <!--</div>-->
+            </div>
+        </div>
+
+    </section>
+
+    <!--<section class="h2-menu">
+        <h1>Reservation</h1>
+    </section>-->
+    <section id="reservation">
+        <section class="h2-menu">
+            <h1>Reservation</h1>
+        </section>
+        <section class="form1">
+            <div>
+                <input type="date" placeholder="Date">
+            </div>
+
+            <div>
+                <select name="Time" id="form">
+                    <option value="" disabled selected hidden>Time</option>
+                    <option value="10:30">10:30</option>
+                    <option value="11:00">11:00</option>
+                    <option value="11:30">11:30</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                </select>
+
+            </div>
+            <div>
+                <select name="Party Size" id="form">
+                    <option value="" disabled selected hidden>Party Size</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div>
+                <button id="button1">Reservation</button>
+            </div>
+
+        </section>
+    </section>
+
+
+    <section>
+        <footer id="footer">
+            <ul>
+                <li>Contact us: 123456789</li>
+                <li>Email us: abc@gmail.com</li>
+                <li>Copyright &copy; www.La Creperie.com. All rights reserved!</li>
+            </ul>
+        </footer>
+    </section>
+
+</body>
+
+</html>

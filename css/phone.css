@@ -1,0 +1,107 @@
+/*navbar*/
+#navbar{
+    flex-direction: column;
+}
+
+#logo img{
+    margin: 0px 34px;
+    height: 54px;
+}
+
+#navbar ul li{
+    margin: 9px 0px;
+    padding: 3px 15px;
+    margin-bottom: 20px;
+}
+
+#navbar ul li a {
+    padding: 20px 0px;
+}
+
+/*home*/
+#home{
+    padding: 93px 40px;
+    height: 239px;
+}
+
+#home::before{
+    height: 587px;
+}
+
+#home h1 {
+    font-size: 27px;
+}
+
+#home p {
+    font-size: 16px;
+}
+/*menu*/
+
+#menu{
+    flex-wrap: wrap;
+}
+
+#menu .box{
+    padding: 13px 13px;
+    margin: auto;
+    margin-bottom: 23px;
+}
+
+.dropbtn{
+    padding: 9px 57px;
+}
+
+.box div img{
+    height: 275px;
+    width: 200px;
+}
+
+
+/*resevation*/
+#reservation{
+    margin: 2px 0px;
+}
+
+.form1{
+    overflow: hidden;
+    /*border: 2px solid red;*/
+    flex-direction: column;
+}
+
+
+.h2-menu h1{
+    font-size: 1rem;
+    margin-top: 104px;
+}
+
+input[type='date'] {
+    padding: 4px 4px;
+    font-size: 11px;
+    margin: 30px;
+}
+
+#form {
+    padding: 4px 4px;
+    font-size: 11px;
+    margin: 24px
+}
+
+#button1 {
+    padding: 2px 11px;
+    font-size: 15px;
+    margin: 3px;
+}
+
+#reservation::before{
+    height: 400px;
+    margin-top: 55px;
+}
+/*footer*/
+
+#footer{
+    margin-top: 35px;
+}
+
+#footer ul{
+    flex-direction: column;
+}

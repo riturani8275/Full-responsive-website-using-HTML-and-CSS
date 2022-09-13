@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navigation Bar*/
+#navbar {
+    display: flex;
+    align-items: center;
+    top: 0px;
+    position: relative;
+    /*position: sticky;*/
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 5, 2);
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin: 20px 45px;
+    padding: 3px 18px;
+}
+
+#navbar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 15px;
+    color: rgb(0, 0, 0);
+}
+
+#navbar ul li a:hover {
+    color: rgb(23, 240, 175);
+    background-color: azure;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    padding: 3px 3px;
+}
+
+/*logo*/
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 68px;
+    margin: 10px 64px
+}
+
+/* home */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 116px 329px;
+    height: 481px;
+
+}
+
+#home::before {
+    content: "";
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: url('../images/bg.jpg') no-repeat center center/cover;
+    height: 849px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#home h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 71px;
+    font-family: cursive;
+    color: black;
+}
+
+#home p {
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+/*Menu*/
+.h1-menu {
+    text-align: center;
+    justify-content: center;
+    font-size: 71px;
+    font-family: cursive;
+    color: black;
+    margin-top: 35px;
+}
+
+#menu {
+    display: flex;
+    margin-top: 56px;
+    /*background-color: rgb(236, 210, 95);*/
+    
+}
+
+#menu .box {
+    display: block;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 18px 20px;
+    margin: 2px 64px;
+    background-color: rgb(223, 235, 230);
+}
+
+.box div img{
+    height: 400px;
+    width: 304px;
+    display: block;
+    margin: auto;
+}
+/*
+.dropdown div img {
+    height: 400px;
+    width: 296px;
+    margin: auto;
+    display: block
+}*/
+
+.dropbtn {
+    background-color: #f0710a;
+    color: white;
+    padding: 17px 104px;
+    font-size: 23px;
+    border: none;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-top: 23px;
+    border-radius: 24px;
+    font-family: -webkit-body;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.box:hover .dropdown-content {
+    display: block;
+}
+
+.box:hover .dropbtn {
+    background-color: #e6432e;
+}
+
+/*Reservation*/
+#reservation{
+    padding: 4px;
+    align-items: center;
+    justify-items: center;
+    margin: 2px 291px;
+    font-family: 'Baloo Bhai', cursive;
+    }
+
+#reservation::before{
+    content: "";
+    left: 0px;
+    margin-top: 67px;
+    position: absolute;
+    background: url('../images/reservation.jpg') no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.form1{
+    display: flex;
+}
+
+.form1 div{
+    align-items: center;
+    justify-items: center;
+    /*display: flex;*/
+    /*margin: 41px;*/
+    margin: auto;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+input[type='date']{
+    padding: 9px 41px;
+    font-size: 20px;
+    margin: 72px;
+    font-family: 'Baloo Bhai', cursive;
+    border: 2px solid black;
+}
+
+#form{
+    padding: 9px 41px;
+    font-size: 20px;
+    margin: 72px;
+    font-family: 'Baloo Bhai', cursive;
+    display: flex;
+    border: 2px solid black;
+}
+#button1{
+    padding: 8px 35px;
+    font-size: 20px;
+    margin: 72px;
+    background-color: rgb(101, 182, 230);
+    border: none;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#button1:hover{
+    background-color: blue;
+}
+
+.h2-menu h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 71px;
+    font-family: cursive;
+    color: white;
+    margin-top: 182px;
+    margin-bottom: 2px;
+}
+
+/*footer*/
+#footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    margin-top: 180px;
+}
+
+#footer ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer ul li{
+    padding: 2px;
+    margin: 2px 78px;
+}
